@@ -1,0 +1,237 @@
+{
+  "$schema": "../schema/groupBy.schema.json",
+  "type": "groupBy",
+  "view": [
+    {
+      "groupingKey": "level:department",
+      "dataIndex": "member:department:name",
+      "text": "Department",
+      "xtype": "level",
+      "dimension": "product"
+    },
+    {
+      "groupingKey": "level:class",
+      "dataIndex": "member:class:name",
+      "text": "Class",
+      "xtype": "level",
+      "dimension": "product"
+    },
+    {
+      "groupingKey": "attribute:ccsubclassname",
+      "dataIndex": "attribute:ccsubclassname:name",
+      "text": "Subclass",
+      "xtype": "attribute",
+      "dimension": "product"
+    },
+    {
+      "groupingKey": "level:powerdriver",
+      "dataIndex": "member:powerdriver:name",
+      "text": "Powerdriver",
+      "xtype": "level",
+      "dimension": "product"
+    },
+    {
+      "groupingKey": "attribute:ccstylegroup",
+      "dataIndex": "attribute:ccstylegroup:name",
+      "text": "Style Group",
+      "xtype": "attribute",
+      "dimension": "product"
+    },
+    {
+      "groupingKey": "level:style:id",
+      "dataIndex": "member:style:id",
+      "text": "Ticket Style",
+      "xtype": "level",
+      "dimension": "product"
+    },
+    {
+      "groupingKey": "level:selling_channel",
+      "dataIndex": "selling_channel",
+      "text": "Channel",
+      "xtype": "level",
+      "dimension": "location"
+    },
+    {
+      "groupingKey": "level:region",
+      "dataIndex": "region",
+      "text": "Region",
+      "xtype": "level",
+      "dimension": "location"
+    },
+    {
+      "groupingKey": "level:grade",
+      "dataIndex": "grade",
+      "text": "Store Vol Tier",
+      "xtype": "level",
+      "dimension": "cluster"
+    },
+    {
+      "groupingKey": "attribute:strmenscapacity",
+      "dataIndex": "strmenscapacity",
+      "text": "Capacity - Mens",
+      "xtype": "attribute",
+      "dimension": "location"
+    },
+    {
+      "groupingKey": "attribute:strwomenscapacity",
+      "dataIndex": "strwomenscapacity",
+      "text": "Capacity - Womens",
+      "xtype": "attribute",
+      "dimension": "location"
+    },
+    {
+      "groupingKey": "attribute:strclimate",
+      "dataIndex": "strclimate",
+      "text": "Climate",
+      "xtype": "attribute",
+      "dimension": "location"
+    },
+    {
+      "groupingKey": "attribute:cccolorfamily",
+      "dataIndex": "attribute:cccolorfamily:name",
+      "text": "Color Family",
+      "xtype": "attribute",
+      "dimension": "product"
+    },
+    {
+      "groupingKey": "attribute:ccdenimwash",
+      "dataIndex": "attribute:ccdenimwash:name",
+      "text": "Denim Wash",
+      "xtype": "attribute",
+      "dimension": "product"
+    },
+    {
+      "groupingKey": "attribute:ccdevelopmentpath",
+      "dataIndex": "attribute:ccdevelopmentpath:name",
+      "text": "Development Path",
+      "xtype": "attribute",
+      "dimension": "product"
+    },
+    {
+      "groupingKey": "attribute:ccdresses",
+      "dataIndex": "attribute:ccdresses:name",
+      "text": "Dresses",
+      "xtype": "attribute",
+      "dimension": "product"
+    },
+    {
+      "groupingKey": "attribute:ccfabric",
+      "dataIndex": "attribute:ccfabric:name",
+      "text": "Fabric",
+      "xtype": "attribute",
+      "dimension": "product"
+    },
+    {
+      "groupingKey": "attribute:ccfashiontier",
+      "dataIndex": "attribute:ccfashiontier:name",
+      "text": "Fashion Tier",
+      "xtype": "attribute",
+      "dimension": "product"
+    },
+    {
+      "groupingKey": "attribute:ccfit",
+      "dataIndex": "attribute:ccfit:name",
+      "text": "Fit",
+      "xtype": "attribute",
+      "dimension": "product"
+    },
+    {
+      "groupingKey": "attribute:ccfloorset",
+      "dataIndex": "attribute:ccfloorset:name",
+      "text": "Floorset",
+      "xtype": "attribute",
+      "dimension": "product"
+    },
+    {
+      "groupingKey": "attribute:ccgraphictheme",
+      "dataIndex": "attribute:ccgraphictheme:name",
+      "text": "Graphic Theme",
+      "xtype": "attribute",
+      "dimension": "product"
+    },
+    {
+      "groupingKey": "attribute:cclegshape",
+      "dataIndex": "attribute:cclegshape:name",
+      "text": "Leg Shape",
+      "xtype": "attribute",
+      "dimension": "product"
+    },
+    {
+      "groupingKey": "attribute:cclifestyle",
+      "dataIndex": "attribute:cclifestyle:name",
+      "text": "Lifestyle",
+      "xtype": "attribute",
+      "dimension": "product"
+    },
+    {
+      "groupingKey": "attribute:ccneckline",
+      "dataIndex": "attribute:ccneckline:name",
+      "text": "Neckline",
+      "xtype": "attribute",
+      "dimension": "product"
+    },
+    {
+      "groupingKey": "level:merchcat",
+      "dataIndex": "merchcat",
+      "text": "Price Status",
+      "xtype": "level",
+      "dimension": "prodlife"
+    },
+    {
+      "groupingKey": "attribute:ccpricingtier",
+      "dataIndex": "attribute:ccpricingtier:name",
+      "text": "Pricing Tier",
+      "xtype": "attribute",
+      "dimension": "product"
+    },
+    {
+      "groupingKey": "attribute:ccprintpattern",
+      "dataIndex": "attribute:ccprintpattern:name",
+      "text": "Print Pattern",
+      "xtype": "attribute",
+      "dimension": "product"
+    },
+    {
+      "groupingKey": "attribute:ccsilhouette",
+      "dataIndex": "attribute:ccsilhouette:name",
+      "text": "Silhouette",
+      "xtype": "attribute",
+      "dimension": "product"
+    },
+    {
+      "groupingKey": "attribute:ccsleevelength",
+      "dataIndex": "attribute:ccsleevelength:name",
+      "text": "Sleeve Length",
+      "xtype": "attribute",
+      "dimension": "product"
+    },
+    {
+      "groupingKey": "attribute:ccstoretier",
+      "dataIndex": "attribute:ccstoretier:name",
+      "text": "Store Tier (Prod)",
+      "xtype": "attribute",
+      "dimension": "product"
+    },
+    {
+      "groupingKey": "attribute:ccsuits",
+      "dataIndex": "attribute:ccsuits:name",
+      "text": "Suits",
+      "xtype": "attribute",
+      "dimension": "product"
+    },
+    {
+      "groupingKey": "attribute:cctested",
+      "dataIndex": "attribute:cctested:name",
+      "text": "Tested",
+      "xtype": "attribute",
+      "dimension": "product"
+    },
+    {
+      "groupingKey": "attribute:ccperf",
+      "dataIndex": "ccperf",
+      "text": "Performance",
+      "xtype": "attribute",
+      "dimension": "product"
+    }
+  ]
+}

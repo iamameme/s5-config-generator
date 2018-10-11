@@ -1,0 +1,187 @@
+{
+  "$schema": "../schema/macro.schema.json",
+  "type": "macro",
+  "view": [
+   {
+      "dataIndex": "slsr",
+      "text": "Sales $",
+      "renderer": "usMoneyRounded",
+      "view": [
+        {
+          "dataIndex": "lyslsr",
+          "text": "LY",
+          "renderer": "usMoneyRounded"
+        },
+        {
+          "dataIndex": "varslsr",
+          "text": "VAR LY",
+          "renderer": "percent",
+          "xtype": "arrowPercent"
+        }
+      ]
+    },
+    {
+      "dataIndex": "slsu",
+      "text": "Sales U",
+      "renderer": "thousand",
+      "view": [
+        {
+          "dataIndex": "lyslsu",
+          "text": "LY",
+          "renderer": "thousand"
+        },
+        {
+          "dataIndex": "varslsu",
+          "text": "VAR LY",
+          "renderer": "percent",
+          "xtype": "arrowPercent"
+        }
+      ]
+    },
+    {
+      "dataIndex": "fpmargin",
+      "text": "Margin $",
+      "renderer": "usMoneyRounded",
+      "view": [
+        {
+          "dataIndex": "lyfpmargin",
+          "text": "LY",
+          "renderer": "usMoneyRounded"
+        },
+        {
+          "dataIndex": "varfpmargin",
+          "text": "VAR LY",
+          "renderer": "percent",
+          "xtype": "arrowPercent"
+        }
+      ]
+    },
+    {
+      "dataIndex": "aur",
+      "text": "Sales AUR",
+      "renderer": "usMoney",
+      "view": [
+        {
+          "dataIndex": "lyaur",
+          "text": "LY",
+          "renderer": "usMoney"
+        },
+        {
+          "dataIndex": "varaur",
+          "text": "VAR LY",
+          "renderer": "percent",
+          "xtype": "arrowPercent"
+        }
+      ]
+    },
+
+    {
+      "dataIndex": "fpapsr",
+      "text": "APS $",
+      "renderer": "usMoneyNoCents",
+      "view": [
+        {
+          "dataIndex": "lyfpapsr",
+          "text": "LY",
+          "renderer": "usMoneyNoCents"
+        },
+        {
+          "dataIndex": "varfpapsr",
+          "text": "VAR LY",
+          "renderer": "percent",
+          "xtype": "arrowPercent"
+        }
+      ]
+    },
+    {
+      "dataIndex": "fpaps",
+      "text": "APS U",
+      "renderer": "twoDecimal",
+      "view": [
+        {
+          "dataIndex": "lyfpaps",
+          "text": "LY",
+          "renderer": "twoDecimal"
+        },
+        {
+          "dataIndex": "varfpaps",
+          "text": "VAR LY",
+          "renderer": "percent",
+          "xtype": "arrowPercent"
+        }
+      ]
+    },
+    {
+      "dataIndex": "fpmarginpct",
+      "text": "Margin %",
+      "renderer": "percent",
+      "view": [
+        {
+          "dataIndex": "lyfpmarginpct",
+          "text": "LY",
+          "renderer": "percent"
+        },
+        {
+          "dataIndex": "varfpmarginpct",
+          "text": "VAR LY",
+          "renderer": "percent",
+          "xtype": "arrowPercent"
+        }
+      ]
+    },
+    {
+      "dataIndex": "cccount",
+      "text": "CC Count",
+      "renderer": "thousand",
+      "view": [
+        {
+          "dataIndex": "lycccount",
+          "text": "LY",
+          "renderer": "thousand"
+        },
+        {
+          "dataIndex": "varcccount",
+          "text": "VAR LY",
+          "renderer": "percent",
+          "xtype": "arrowPercent"
+        }
+      ]
+    },
+    {
+      "dataIndex": "gafs",
+      "text": "Inventory U",
+      "renderer": "thousand",
+      "view": [
+        {
+          "dataIndex": "lygafs",
+          "text": "LY",
+          "renderer": "thousand"
+        },
+        {
+          "dataIndex": "vargafs",
+          "text": "VAR LY",
+          "renderer": "percent",
+          "xtype": "arrowPercent"
+        }
+      ]
+    },
+    {
+      "dataIndex": "fpsellthru",
+      "text": "Sell Thru %",
+      "renderer": "percent",
+      "view": [
+        {
+          "dataIndex": "lyfpsellthru",
+          "text": "LY",
+          "renderer": "percent"
+        },
+        {
+          "dataIndex": "varfpsellthru",
+          "text": "VAR LY",
+          "renderer": "percent",
+          "xtype": "arrowPercent"
+        }
+      ]
+    }
+  ]
+}

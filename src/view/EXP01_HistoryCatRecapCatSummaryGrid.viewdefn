@@ -1,0 +1,352 @@
+{
+  "$schema": "../schema/grid.schema.json",
+  "id": "HistoryCatRecapCatSummaryRecapGrid",
+  "model": "HistoryCatRecapCatSummaryRecapGrid",
+  "type": "grid",
+  "main": {
+    "rowHeight": 40
+  },
+    "view": [
+        {
+            "dataIndex": "Name",
+            "text": "Name",
+            "sortable": true,
+            "width": 250,
+            "pinned": "left",
+            "locked": true
+        },
+        {
+            "text": "Sales $",
+            "menuDisabled": false,
+            "lockable": true,
+            "columns": [
+                {
+                    "dataIndex": "slsr",
+                    "text": "ACT",
+                    "lockable": false,
+                    "draggable": false,
+                    "align": "right",
+                    "sortable": true,
+                    "renderer": "usMoneyNoCents",
+                    "width": 125
+                },
+                {
+                    "dataIndex": "lyslsr",
+                    "text": "LY",
+                    "lockable": false,
+                    "draggable": false,
+                    "align": "right",
+                    "sortable": true,
+                    "renderer": "usMoneyNoCents",
+                    "width": 125
+                },
+                {
+                    "dataIndex": "varslsr",
+                    "text": "Var LY",
+                    "lockable": false,
+                    "draggable": false,
+                    "align": "right",
+                    "sortable": true,
+                    "renderer": "arrowPercentTwoDecimal",
+                    "width": 125
+                }
+            ]
+        },
+        {
+            "text": "Sales U",
+            "menuDisabled": false,
+            "lockable": true,
+            "columns": [
+                {
+                    "dataIndex": "slsu",
+                    "text": "ACT",
+                    "lockable": false,
+                    "draggable": false,
+                    "align": "right",
+                    "sortable": true,
+                    "renderer": "thousand",
+                    "width": 125
+                },
+                {
+                    "dataIndex": "lyslsu",
+                    "text": "LY",
+                    "lockable": false,
+                    "draggable": false,
+                    "align": "right",
+                    "sortable": true,
+                    "renderer": "thousand",
+                    "width": 125
+                },
+                {
+                    "dataIndex": "varslsu",
+                    "text": "Var LY",
+                    "lockable": false,
+                    "draggable": false,
+                    "align": "right",
+                    "sortable": true,
+                    "renderer": "arrowPercentTwoDecimal",
+                    "width": 125
+                }
+            ]
+        },
+         {
+            "text": "GAFS U",
+            "menuDisabled": false,
+            "lockable": true,
+            "columns": [
+                {
+                    "dataIndex": "gafs",
+                    "text": "ACT",
+                    "lockable": false,
+                    "draggable": false,
+                    "align": "right",
+                    "sortable": true,
+                    "renderer": "thousand",
+                    "width": 125
+                },
+                {
+                    "dataIndex": "lygafs",
+                    "text": "LY",
+                    "lockable": false,
+                    "draggable": false,
+                    "align": "right",
+                    "sortable": true,
+                    "renderer": "thousand",
+                    "width": 125
+                },
+                {
+                    "dataIndex": "vargafs",
+                    "text": "Var LY",
+                    "lockable": false,
+                    "draggable": false,
+                    "align": "right",
+                    "sortable": true,
+                    "renderer": "arrowPercentTwoDecimal",
+                    "width": 125
+                }
+            ]
+        },
+        {
+            "text": "Margin $",
+            "menuDisabled": false,
+            "lockable": true,
+            "columns": [
+                {
+                    "dataIndex": "fpmargin",
+                    "text": "ACT",
+                    "lockable": false,
+                    "draggable": false,
+                    "align": "right",
+                    "sortable": true,
+                    "renderer": "usMoneyNoCents",
+                    "width": 125
+                },
+                {
+                    "dataIndex": "lyfpmargin",
+                    "text": "LY",
+                    "lockable": false,
+                    "draggable": false,
+                    "align": "right",
+                    "sortable": true,
+                    "renderer": "usMoneyNoCents",
+                    "width": 125
+                },
+                {
+                    "dataIndex": "varfpmargin",
+                    "text": "Var LY",
+                    "lockable": false,
+                    "draggable": false,
+                    "align": "right",
+                    "sortable": true,
+                    "renderer": "arrowPercentTwoDecimal",
+                    "width": 125
+                }
+            ]
+        },
+        {
+            "text": "Margin %",
+            "menuDisabled": false,
+            "lockable": true,
+            "columns": [
+                {
+                    "dataIndex": "fpmarginpct",
+                    "text": "ACT",
+                    "lockable": false,
+                    "draggable": false,
+                    "align": "right",
+                    "sortable": true,
+                    "renderer": "percent",
+                    "width": 125
+                },
+                {
+                    "dataIndex": "lyfpmarginpct",
+                    "text": "LY",
+                    "lockable": false,
+                    "draggable": false,
+                    "align": "right",
+                    "sortable": true,
+                    "renderer": "percent",
+                    "width": 125
+                },
+                {
+                    "dataIndex": "varfpmarginpct",
+                    "text": "Var LY",
+                    "lockable": false,
+                    "draggable": false,
+                    "align": "right",
+                    "sortable": true,
+                    "renderer": "arrowPercentTwoDecimal",
+                    "width": 125
+                }
+            ]
+        },
+        {
+            "text": "Sales AUR",
+            "menuDisabled": false,
+            "lockable": true,
+            "columns": [
+                {
+                    "dataIndex": "aur",
+                    "text": "ACT",
+                    "lockable": false,
+                    "draggable": false,
+                    "align": "right",
+                    "sortable": true,
+                    "renderer": "usMoney",
+                    "width": 125
+                },
+                {
+                    "dataIndex": "lyaur",
+                    "text": "LY",
+                    "lockable": false,
+                    "draggable": false,
+                    "align": "right",
+                    "sortable": true,
+                    "renderer": "usMoney",
+                    "width": 125
+                },
+                {
+                    "dataIndex": "varaur",
+                    "text": "Var LY",
+                    "lockable": false,
+                    "draggable": false,
+                    "align": "right",
+                    "sortable": true,
+                    "renderer": "arrowPercentTwoDecimal",
+                    "width": 125
+                }
+            ]
+        },
+        {
+            "text": "Avg Str Sales U",
+            "menuDisabled": false,
+            "lockable": true,
+            "columns": [
+                {
+                    "dataIndex": "avgstrslsu",
+                    "text": "ACT",
+                    "lockable": false,
+                    "draggable": false,
+                    "align": "right",
+                    "sortable": true,
+                    "renderer": "thousand",
+                    "width": 125
+                },
+                {
+                    "dataIndex": "lyavgstrslsu",
+                    "text": "LY",
+                    "lockable": false,
+                    "draggable": false,
+                    "align": "right",
+                    "sortable": true,
+                    "renderer": "thousand",
+                    "width": 125
+                },
+                {
+                    "dataIndex": "varavgstrslsu",
+                    "text": "Var LY",
+                    "lockable": false,
+                    "draggable": false,
+                    "align": "right",
+                    "sortable": true,
+                    "renderer": "arrowPercentTwoDecimal",
+                    "width": 125
+                }
+            ]
+        },
+        {
+            "text": "Avg Str GAFS U",
+            "menuDisabled": false,
+            "lockable": true,
+            "columns": [
+                {
+                    "dataIndex": "avgstrgafs",
+                    "text": "ACT",
+                    "lockable": false,
+                    "draggable": false,
+                    "align": "right",
+                    "sortable": true,
+                    "renderer": "thousand",
+                    "width": 125
+                },
+                {
+                    "dataIndex": "lyavgstrgafs",
+                    "text": "LY",
+                    "lockable": false,
+                    "draggable": false,
+                    "align": "right",
+                    "sortable": true,
+                    "renderer": "thousand",
+                    "width": 125
+                },
+                {
+                    "dataIndex": "varavgstrgafs",
+                    "text": "Var LY",
+                    "lockable": false,
+                    "draggable": false,
+                    "align": "right",
+                    "sortable": true,
+                    "renderer": "arrowPercentTwoDecimal",
+                    "width": 125
+                }
+            ]
+        },
+        {
+            "text": "CC Count",
+            "menuDisabled": false,
+            "lockable": true,
+            "columns": [
+                {
+                    "dataIndex": "cccount",
+                    "text": "ACT",
+                    "lockable": false,
+                    "draggable": false,
+                    "align": "right",
+                    "sortable": true,
+                    "renderer": "thousand",
+                    "width": 125
+                },
+                {
+                    "dataIndex": "lycccount",
+                    "text": "LY",
+                    "lockable": false,
+                    "draggable": false,
+                    "align": "right",
+                    "sortable": true,
+                    "renderer": "thousand",
+                    "width": 125
+                },
+                {
+                    "dataIndex": "varcccount",
+                    "text": "Var LY",
+                    "lockable": false,
+                    "draggable": false,
+                    "align": "right",
+                    "sortable": true,
+                    "renderer": "arrowPercentTwoDecimal",
+                    "width": 125
+                }
+            ]
+        }
+    ]
+}

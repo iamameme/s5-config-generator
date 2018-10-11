@@ -1,0 +1,66 @@
+{
+    "id": "HistoryParetoSummary",
+    "view": [
+        {
+            "dataIndex": "slsr",
+            "renderer": "usMoneyRounded"
+        },
+        {
+            "dataIndex": "lyslsr",
+            "renderer": "usMoneyRounded"
+        },
+        {
+            "dataIndex": "margin",
+            "renderer": "usMoneyRounded"
+        },
+        {
+            "dataIndex": "lymargin",
+            "renderer": "usMoneyRounded"
+        },
+        {
+            "dataIndex": "var_cccount",
+            "renderer": "percent",
+            "mask": "0"
+        },
+        {
+            "dataIndex": "var_slsr",
+            "renderer": "percent",
+            "mask": "0"
+        },
+        {
+            "dataIndex": "var_margin",
+            "renderer": "percent",
+            "mask": "0"
+        },
+        {
+            "dataIndex": "slsr_pct",
+            "renderer": "percent",
+            "mask": "0"
+        },
+        {
+            "dataIndex": "lyslsr_pct",
+            "renderer": "percent",
+            "mask": "0"
+        },
+        {
+            "dataIndex": "margin_pct",
+            "renderer": "percent",
+            "mask": "0"
+        },
+        {
+            "dataIndex": "lymargin_pct",
+            "renderer": "percent",
+            "mask": "0"
+        },
+        {
+            "dataIndex": "slsu_pct",
+            "renderer": "percent",
+            "mask": "0"
+        },
+        {
+            "dataIndex": "lyslsu_pct",
+            "renderer": "percent",
+            "mask": "0"
+        }
+    ]
+}

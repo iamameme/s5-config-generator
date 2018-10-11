@@ -1,0 +1,473 @@
+{
+  "$schema": "../schema/grid.schema.json",
+  "type": "grid",
+  "model": "HistoryAggregateViewsProductDetailsGrid",
+  "main": {
+    "rowHeight": 40
+  },
+  "view": [
+    {
+      "dataIndex": "id",
+      "text": "Attribute ID",
+      "sortable": true,
+      "xtype": "treecolumn",
+      "width": 250,
+      "pinned": "left",
+      "locked": true
+    },
+    {
+      "text": "CC Count",
+      "columns": [
+        {
+          "dataIndex": "cccount",
+          "text": "Act",
+          "sortable": true,
+          "renderer": "thousand",
+          "lockable": false,
+          "draggable": false,
+          "align": "right"
+        },
+        {
+          "dataIndex": "lycccount",
+          "text": "LY",
+          "sortable": true,
+          "renderer": "thousand",
+          "lockable": false,
+          "draggable": false,
+          "align": "right",
+          "width": 125
+        }
+      ]
+    },
+    {
+      "text": "Sales $",
+      "columns": [
+        {
+          "dataIndex": "slsr",
+          "text": "Act",
+          "sortable": true,
+          "renderer": "usMoneyNoCents",
+          "lockable": false,
+          "draggable": false,
+          "align": "right",
+           "width": 125
+        },
+        {
+          "dataIndex": "lyslsr",
+          "text": "LY",
+          "sortable": true,
+          "renderer": "usMoneyNoCents",
+          "lockable": false,
+          "draggable": false,
+          "align": "right",
+          "width": 125
+        },
+        {
+          "dataIndex": "varslsr",
+          "text": "Var LY",
+          "sortable": true,
+          "renderer": "arrowPercentTwoDecimal",
+          "lockable": false,
+          "draggable": false,
+          "align": "right",
+          "width": 125
+        }
+      ]
+    },
+    {
+      "text": "Sales U",
+      "columns": [
+        {
+          "dataIndex": "slsu",
+          "text": "Act",
+          "sortable": true,
+          "renderer": "thousand",
+          "lockable": false,
+          "draggable": false,
+          "align": "right",
+          "width": 125
+        },
+        {
+          "dataIndex": "lyslsu",
+          "text": "LY",
+          "sortable": true,
+          "renderer": "thousand",
+          "lockable": false,
+          "draggable": false,
+          "align": "right",
+          "width": 125
+        },
+        {
+          "dataIndex": "varslsu",
+          "text": "Var LY",
+          "sortable": true,
+          "renderer": "arrowPercentTwoDecimal",
+          "lockable": false,
+          "draggable": false,
+          "align": "right",
+          "width": 125
+        }
+      ]
+    },
+    {
+      "text": "GAFS U",
+      "columns": [
+        {
+          "dataIndex": "gafs",
+          "text": "Act",
+          "sortable": true,
+          "renderer": "thousand",
+          "lockable": false,
+          "draggable": false,
+          "align": "right",
+          "width": 125
+        },
+        {
+          "dataIndex": "lygafs",
+          "text": "LY",
+          "sortable": true,
+          "renderer": "thousand",
+          "lockable": false,
+          "draggable": false,
+          "align": "right",
+          "width": 125
+        },
+        {
+          "dataIndex": "vargafs",
+          "text": "Var LY",
+          "sortable": true,
+          "renderer": "arrowPercentTwoDecimal",
+          "lockable": false,
+          "draggable": false,
+          "align": "right",
+          "width": 125
+        }
+      ]
+    },
+    {
+      "text": "Margin $",
+      "columns": [
+        {
+          "dataIndex": "fpmargin",
+          "text": "Act",
+          "sortable": true,
+          "renderer": "usMoneyNoCents",
+          "lockable": false,
+          "draggable": false,
+          "align": "right",
+          "width": 125
+        },
+        {
+          "dataIndex": "lyfpmargin",
+          "text": "LY",
+          "sortable": true,
+          "renderer": "usMoneyNoCents",
+          "lockable": false,
+          "draggable": false,
+          "align": "right",
+          "width": 125
+        },
+        {
+          "dataIndex": "varfpmargin",
+          "text": "Var LY",
+          "sortable": true,
+          "renderer": "arrowPercentTwoDecimal",
+          "lockable": false,
+          "draggable": false,
+          "align": "right",
+          "width": 125
+        }
+      ]
+    },
+    {
+      "text": "Margin %",
+      "columns": [
+        {
+          "dataIndex": "fpmarginpct",
+          "text": "Act",
+          "sortable": true,
+          "renderer": "percent",
+          "lockable": false,
+          "draggable": false,
+          "align": "right",
+          "width": 125
+        },
+        {
+          "dataIndex": "lyfpmarginpct",
+          "text": "LY",
+          "sortable": true,
+          "renderer": "percent",
+          "lockable": false,
+          "draggable": false,
+          "align": "right",
+          "width": 125
+        }
+      ]
+    },
+    {
+      "text": "Sales AUR",
+      "columns": [
+        {
+          "dataIndex": "aur",
+          "text": "Act",
+          "sortable": true,
+          "renderer": "usMoney",
+          "lockable": false,
+          "draggable": false,
+          "align": "right",
+          "width": 125
+        },
+        {
+          "dataIndex": "lyaur",
+          "text": "LY",
+          "sortable": true,
+          "renderer": "usMoney",
+          "lockable": false,
+          "draggable": false,
+          "align": "right",
+          "width": 125
+        },
+        {
+          "dataIndex": "varaur",
+          "text": "Var LY",
+          "sortable": true,
+          "renderer": "arrowPercentTwoDecimal",
+          "lockable": false,
+          "draggable": false,
+          "align": "right",
+          "width": 125
+        }
+      ]
+    },
+    {
+      "text": "Stk/Sls",
+      "columns": [
+        {
+          "dataIndex": "stksls",
+          "text": "Act",
+          "sortable": true,
+          "renderer": "twoDecimal",
+          "lockable": false,
+          "draggable": false,
+          "align": "right",
+          "width": 125
+        },
+        {
+          "dataIndex": "lystksls",
+          "text": "LY",
+          "sortable": true,
+          "renderer": "twoDecimal",
+          "lockable": false,
+          "draggable": false,
+          "align": "right",
+          "width": 125
+        }
+      ]
+    },
+    {
+      "text": "Sell Thru %",
+      "columns": [
+        {
+          "dataIndex": "fpsellthru",
+          "text": "Act",
+          "sortable": true,
+          "renderer": "percent",
+          "lockable": false,
+          "draggable": false,
+          "align": "right",
+          "width": 125
+        },
+        {
+          "dataIndex": "lyfpsellthru",
+          "text": "LY",
+          "sortable": true,
+          "renderer": "percent",
+          "lockable": false,
+          "draggable": false,
+          "align": "right",
+          "width": 125
+        }
+      ]
+    },
+    {
+      "text": "APS U",
+      "columns": [
+        {
+          "dataIndex": "fpaps",
+          "text": "Act",
+          "sortable": true,
+          "renderer": "twoDecimal",
+          "lockable": false,
+          "draggable": false,
+          "align": "right",
+          "width": 125
+        },
+        {
+          "dataIndex": "lyfpaps",
+          "text": "LY",
+          "sortable": true,
+          "renderer": "twoDecimal",
+          "lockable": false,
+          "draggable": false,
+          "align": "right",
+          "width": 125
+        },
+        {
+          "dataIndex": "varfpaps",
+          "text": "Var LY",
+          "sortable": true,
+          "renderer": "arrowPercentTwoDecimal",
+          "lockable": false,
+          "draggable": false,
+          "align": "right",
+          "width": 125
+        }
+      ]
+    },
+    {
+      "text": "APS $",
+      "columns": [
+        {
+          "dataIndex": "fpapsr",
+          "text": "Act",
+          "sortable": true,
+          "renderer": "usMoneyNoCents",
+          "lockable": false,
+          "draggable": false,
+          "align": "right",
+          "width": 125
+        },
+        {
+          "dataIndex": "lyfpapsr",
+          "text": "LY",
+          "sortable": true,
+          "renderer": "usMoneyNoCents",
+          "lockable": false,
+          "draggable": false,
+          "align": "right",
+          "width": 125
+        },
+        {
+          "dataIndex": "varfpapsr",
+          "text": "Var LY",
+          "sortable": true,
+          "renderer": "arrowPercentTwoDecimal",
+          "lockable": false,
+          "draggable": false,
+          "align": "right",
+          "width": 125
+        }
+      ]
+    },
+    {
+      "text": "Store Count (Total)",
+      "columns": [
+        {
+          "dataIndex": "storecount",
+          "text": "Act",
+          "sortable": true,
+          "renderer": "thousand",
+          "lockable": false,
+          "draggable": false,
+          "align": "right",
+          "width": 125
+        },
+        {
+          "dataIndex": "lystorecount",
+          "text": "LY",
+          "sortable": true,
+          "renderer": "thousand",
+          "lockable": false,
+          "draggable": false,
+          "align": "right",
+          "width": 125
+        }
+      ]
+    },
+    {
+      "text": "Avg Str Sls U",
+      "columns": [
+        {
+          "dataIndex": "avgstrslsu",
+          "text": "Act",
+          "sortable": true,
+          "renderer": "thousand",
+          "lockable": false,
+          "draggable": false,
+          "align": "right",
+          "width": 125
+        },
+        {
+          "dataIndex": "lyavgstrslsu",
+          "text": "LY",
+          "sortable": true,
+          "renderer": "thousand",
+          "lockable": false,
+          "draggable": false,
+          "align": "right",
+          "width": 125
+        },
+        {
+          "dataIndex": "varavgstrslsu",
+          "text": "Var LY",
+          "sortable": true,
+          "renderer": "arrowPercentTwoDecimal",
+          "lockable": false,
+          "draggable": false,
+          "align": "right",
+          "width": 125
+        }
+      ]
+    },
+    {
+      "text": "Avg Str GAFS U",
+      "columns": [
+        {
+          "dataIndex": "avgstrgafs",
+          "text": "Act",
+          "sortable": true,
+          "renderer": "thousand",
+          "lockable": false,
+          "draggable": false,
+          "align": "right",
+          "width": 125
+        },
+        {
+          "dataIndex": "lyavgstrgafs",
+          "text": "LY",
+          "sortable": true,
+          "renderer": "thousand",
+          "lockable": false,
+          "draggable": false,
+          "align": "right",
+          "width": 125
+        },
+        {
+          "dataIndex": "varavgstrgafs",
+          "text": "Var LY",
+          "sortable": true,
+          "renderer": "arrowPercentTwoDecimal",
+          "lockable": false,
+          "draggable": false,
+          "align": "right",
+          "width": 125
+        }
+      ]
+    },
+    {
+      "text": "Insight",
+      "columns": [
+        {
+          "dataIndex": "insightu",
+          "text": "Act",
+          "sortable": true,
+          "renderer": "thousand",
+          "lockable": false,
+          "draggable": false,
+          "align": "right",
+          "width": 125
+        }
+      ]
+    }
+  ]
+}

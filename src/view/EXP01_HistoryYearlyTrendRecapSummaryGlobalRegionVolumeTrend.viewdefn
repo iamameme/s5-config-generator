@@ -1,0 +1,8 @@
+{
+  "view": [
+    {
+      "text": "level:globalregion,level:department,level:month",
+      "dataIndex": "lyslsr"
+    }
+  ]
+}

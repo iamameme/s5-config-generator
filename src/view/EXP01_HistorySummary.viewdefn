@@ -1,0 +1,56 @@
+{
+  "$schema": "../schema/global.schema.json#/definitions/defaultViewSchema",
+  "id": "HistorySummary",
+  "view": [
+    {
+      "dataIndex": "member:stylecolor:id",
+      "text": "Name"
+    },
+    {
+      "dataIndex": "member:stylecolor:description",
+      "text": "Description"
+    },
+    {
+      "dataIndex": "slsr",
+      "text": "Sls $",
+      "renderer": "usMoneyRounded"
+    },
+    {
+      "dataIndex": "slsu",
+      "text": "Sls U",
+      "renderer": "thousand"
+    },
+    {
+      "dataIndex": "fpaps",
+      "text": "APS U",
+      "renderer": "twoDecimal"
+    },
+    {
+      "dataIndex": "fpmarginpct",
+      "text": "Mgn %",
+      "renderer": "percent"
+    },
+    {
+      "dataIndex": "stksls",
+      "text": "AvgS/S",
+      "renderer": "twoDecimal"
+    },
+    {
+      "dataIndex": "insight",
+      "text": "Insight",
+      "renderer": "thousand"
+    },
+    {
+      "dataIndex": "aur",
+      "text": "SlsAUR",
+      "renderer": "usMoney"
+    },
+    {
+    "dataIndex": "compositeattributeband",
+    "text": "",
+    "isFooter": true,
+    "hidden": true,
+    "renderer": "star"
+    }
+]
+}

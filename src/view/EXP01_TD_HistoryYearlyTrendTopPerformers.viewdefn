@@ -1,0 +1,71 @@
+{
+  "type": "screen",
+  "model": "HistoryTopPerformers",
+  "itemsPerSection": "100",
+  "view": [
+    {
+      "xtype": "rollup",
+      "view": [
+        {
+          "dataIndex": "cccount",
+          "text": "Count",
+          "renderer": "thousand",
+          "formula": "sum(1)",
+            "xtype": "unique"
+        },
+        {
+          "dataIndex": "slsr",
+          "text": "Sales $",
+          "renderer": "usMoneyRounded",
+          "formula": "sum(slsr)"
+        },
+        {
+          "dataIndex": "slsu",
+          "text": "Sales U",
+          "renderer": "thousand",
+          "formula": "sum(slsu)"
+        }
+      ]
+    },
+    {
+      "xtype": "columns",
+      "view": [
+        {
+          "text": "Sales $",
+          "dataIndex": "slsr",
+          "renderer": "usMoneyNoCents"
+        },
+        {
+          "text": "Sales U",
+          "dataIndex": "slsu",
+          "renderer": "thousand"
+        },
+        {
+          "text": "Margin $",
+          "dataIndex": "fpmargin",
+          "renderer": "usMoneyNoCents"
+        },
+        {
+          "text": "Margin %",
+          "dataIndex": "fpmarginpct",
+          "renderer": "percent"
+        },
+        {
+          "text": "Tkt Price",
+          "dataIndex": "attribute:ccticketprice:id",
+          "renderer": "usMoney"
+        },
+        {
+          "text": "Sales AUR",
+          "dataIndex": "aur",
+          "renderer": "usMoney"
+        },
+        {
+          "text": "FP Sell Thru %",
+          "dataIndex": "fpsellthru",
+          "renderer": "percent"
+        }
+      ]
+    }
+  ]
+}

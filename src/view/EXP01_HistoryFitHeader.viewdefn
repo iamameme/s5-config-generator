@@ -1,0 +1,15 @@
+{
+  "id": "HistoryFitHeader",
+  "view": [
+    {
+      "dataIndex": "slsr",
+      "text": "Sales $",
+      "renderer": "usMoneyRounded"
+    },
+    {
+      "dataIndex": "slsu",
+      "text": "Sales U",
+      "renderer": "thousand"
+    }
+  ]
+}

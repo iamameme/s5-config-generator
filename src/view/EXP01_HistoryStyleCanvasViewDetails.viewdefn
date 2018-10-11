@@ -1,0 +1,27 @@
+{
+    "main": {
+        "view": [
+            {
+                "dataIndex": "compositeattributeband",
+                "xtype": "stars"
+            },
+            {
+                "dataIndex": "attribute:ccticketprice:name",
+                "xtype": "right-side",
+                "renderer": "usMoney"
+            },
+            {
+                "dataIndex": "&",
+                "xtype": "description",
+                "renderer": "template",
+                "mask": "{id} - {description}"
+            },
+            {
+                "dataIndex": "_",
+                "xtype": "id"
+            }
+        ]
+    },
+    "view": [
+    ]
+}

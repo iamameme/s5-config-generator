@@ -1,0 +1,10 @@
+{
+  "defaultAggBy": "level:region",
+  "modelId": "HistoryGeoRegion",
+  "mapUri": "world-palestine-lowres.geo",
+  "geoLocationKeys": [
+    "attribute:regionlatitude:id",
+    "attribute:regionlongitude:id"
+  ],
+  "view": [  ]
+}

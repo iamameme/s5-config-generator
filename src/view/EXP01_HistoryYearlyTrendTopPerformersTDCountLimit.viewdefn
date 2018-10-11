@@ -1,0 +1,6 @@
+{
+  "type": "countLimit",
+  "default": 100,
+  "options": [100, 50, 20],
+  "view": []
+}

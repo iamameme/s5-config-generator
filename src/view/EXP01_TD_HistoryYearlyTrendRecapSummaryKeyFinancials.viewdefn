@@ -1,0 +1,69 @@
+{
+  "defaultAggBy": "level:prodrootlevel,level:top_bottom",
+  "view": [
+    {
+      "text": "Sales $",
+      "dataIndex": "slsr",
+      "renderer": "usMoneyRounded",
+      "view": [
+        {
+          "dataIndex": "varslsr",
+          "renderer": "arrowPercent"
+        },
+        {
+          "text": "LY",
+          "dataIndex": "lyslsr",
+          "renderer": "usMoneyRounded"
+        }
+      ]
+    },
+    {
+      "text": "Sales U",
+      "dataIndex": "slsu",
+      "renderer": "thousand",
+      "view": [
+        {
+          "dataIndex": "varslsu",
+          "renderer": "arrowPercent"
+        },
+        {
+          "text": "LY",
+          "dataIndex": "lyslsu",
+          "renderer": "thousand"
+        }
+      ]
+    },
+    {
+      "text": "Margin $",
+      "dataIndex": "fpmargin",
+      "renderer": "usMoneyRounded",
+      "view": [
+        {
+          "dataIndex": "varfpmargin",
+          "renderer": "arrowPercent"
+        },
+        {
+          "text": "LY",
+          "dataIndex": "lyfpmargin",
+          "renderer": "usMoneyRounded"
+        }
+      ]
+    },
+    {
+      "text": "AUR",
+      "dataIndex": "aur",
+      "renderer": "usMoney",
+      "view": [
+        {
+          "dataIndex": "varaur",
+          "renderer": "arrowPercent"
+        },
+        {
+          "text": "LY",
+          "dataIndex": "lyaur",
+          "renderer": "usMoney"
+        }
+      ]
+    }
+  ]
+}

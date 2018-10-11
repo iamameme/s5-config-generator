@@ -1,0 +1,17 @@
+label {
+    font-weight: bold;
+}
+textarea {
+    color: #00a89b;
+}
+input.form-control {
+    color: #00a89b;
+}
+
+.CodeMirror {
+  height: 100% !important;
+}
+
+.react-codemirror2 {
+    height: 93%;
+}

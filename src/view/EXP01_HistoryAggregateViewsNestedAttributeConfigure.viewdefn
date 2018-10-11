@@ -1,0 +1,295 @@
+{
+  "$schema": "../schema/configure.schema.json",
+  "type": "configure",
+  "defaults": {
+    "first": "level:class",
+    "second": "level:powerdriver"
+  },
+  "main": {
+    "info": "Select View Options"
+  },
+  "view": [
+    {
+      "dataIndex": "first",
+      "text": "Level One",
+      "view": [
+        {
+          "dataIndex": "level:department",
+          "text": "Department",
+          "xtype": "level"
+        },
+        {
+          "dataIndex": "level:class",
+          "text": "Class",
+          "xtype": "level"
+        },
+        {
+          "dataIndex": "attribute:ccsubclassname",
+          "text": "Subclass",
+          "xtype": "attribute"
+        },
+        {
+          "dataIndex": "level:powerdriver",
+          "text": "Powerdriver",
+          "xtype": "level"
+        },
+        {
+          "dataIndex": "level:selling_channel",
+          "text": "Channel",
+          "xtype": "level"
+        },
+         {
+          "dataIndex": "level:grade",
+          "text": "Store Vol Tier",
+          "xtype": "level"
+        },
+        {
+          "dataIndex": "attribute:strmenscapacity",
+          "text": "Capacity - Mens",
+          "xtype": "attribute"
+        },
+        {
+          "dataIndex": "attribute:strwomenscapacity",
+          "text": "Capacity - Womens",
+          "xtype": "attribute"
+        },
+        {
+          "dataIndex": "attribute:strclimate",
+          "text": "Climate",
+          "xtype": "attribute"
+        },
+        {
+          "dataIndex": "attribute:cccolorfamily",
+          "text": "Color Family",
+          "xtype": "attribute"
+        },
+        {
+          "dataIndex": "attribute:ccdenimwash",
+          "text": "Denim Wash",
+          "xtype": "attribute"
+        },
+        {
+          "dataIndex": "attribute:ccdevelopmentpath",
+          "text": "Development Path",
+          "xtype": "attribute"
+        },
+        {
+          "dataIndex": "attribute:ccfabric",
+          "text": "Fabric",
+          "xtype": "attribute"
+        },
+        {
+          "dataIndex": "attribute:ccfashiontier",
+          "text": "Fashion Tier",
+          "xtype": "attribute"
+        },
+        {
+          "dataIndex": "attribute:ccfit",
+          "text": "Fit",
+          "xtype": "attribute"
+        },
+        {
+          "dataIndex": "attribute:ccfloorset",
+          "text": "Floorset",
+          "xtype": "attribute"
+        },
+        {
+          "dataIndex": "attribute:ccgraphictheme",
+          "text": "Graphic Theme",
+          "xtype": "attribute"
+        },
+        {
+          "dataIndex": "attribute:cclegshape",
+          "text": "Leg Shape",
+          "xtype": "attribute"
+        },
+        {
+          "dataIndex": "attribute:cclifestyle",
+          "text": "Lifestyle",
+          "xtype": "attribute"
+        },
+        {
+          "dataIndex": "attribute:ccneckline",
+          "text": "Neckline",
+          "xtype": "attribute"
+        },
+                {
+          "dataIndex": "level:merchcat",
+          "text": "Price Status",
+          "xtype": "level"
+        },
+        {
+          "dataIndex": "attribute:ccpricingtier",
+          "text": "Pricing Tier",
+          "xtype": "attribute"
+        },
+        {
+          "dataIndex": "attribute:ccprintpattern",
+          "text": "Print Pattern",
+          "xtype": "attribute"
+        },
+        {
+          "dataIndex": "attribute:ccsilhouette",
+          "text": "Silhouette",
+          "xtype": "attribute"
+        },
+        {
+          "dataIndex": "attribute:ccstoretier",
+          "text": "Store Tier (Prod)",
+          "xtype": "attribute"
+        },
+        {
+          "dataIndex": "attribute:ccsuits",
+          "text": "Suits",
+          "xtype": "attribute"
+        },
+        {
+          "dataIndex": "attribute:cctested",
+          "text": "Tested",
+          "xtype": "attribute"
+        }
+      ]
+    },
+    {
+      "dataIndex": "second",
+      "text": "Level Two",
+      "view": [
+        {
+          "dataIndex": "level:department",
+          "text": "Department",
+          "xtype": "level"
+        },
+        {
+          "dataIndex": "level:class",
+          "text": "Class",
+          "xtype": "level"
+        },
+        {
+          "dataIndex": "attribute:ccsubclassname",
+          "text": "Subclass",
+          "xtype": "attribute"
+        },
+        {
+          "dataIndex": "level:powerdriver",
+          "text": "Powerdriver",
+          "xtype": "level"
+        },
+        {
+          "dataIndex": "level:selling_channel",
+          "text": "Channel",
+          "xtype": "level"
+        },
+         {
+          "dataIndex": "level:grade",
+          "text": "Store Vol Tier",
+          "xtype": "level"
+        },
+        {
+          "dataIndex": "attribute:strmenscapacity",
+          "text": "Capacity - Mens",
+          "xtype": "attribute"
+        },
+        {
+          "dataIndex": "attribute:strwomenscapacity",
+          "text": "Capacity - Womens",
+          "xtype": "attribute"
+        },
+        {
+          "dataIndex": "attribute:strclimate",
+          "text": "Climate",
+          "xtype": "attribute"
+        },
+        {
+          "dataIndex": "attribute:cccolorfamily",
+          "text": "Color Family",
+          "xtype": "attribute"
+        },
+        {
+          "dataIndex": "attribute:ccdenimwash",
+          "text": "Denim Wash",
+          "xtype": "attribute"
+        },
+        {
+          "dataIndex": "attribute:ccdevelopmentpath",
+          "text": "Development Path",
+          "xtype": "attribute"
+        },
+        {
+          "dataIndex": "attribute:ccfabric",
+          "text": "Fabric",
+          "xtype": "attribute"
+        },
+        {
+          "dataIndex": "attribute:ccfashiontier",
+          "text": "Fashion Tier",
+          "xtype": "attribute"
+        },
+        {
+          "dataIndex": "attribute:ccfit",
+          "text": "Fit",
+          "xtype": "attribute"
+        },
+        {
+          "dataIndex": "attribute:ccfloorset",
+          "text": "Floorset",
+          "xtype": "attribute"
+        },
+        {
+          "dataIndex": "attribute:ccgraphictheme",
+          "text": "Graphic Theme",
+          "xtype": "attribute"
+        },
+        {
+          "dataIndex": "attribute:cclegshape",
+          "text": "Leg Shape",
+          "xtype": "attribute"
+        },
+        {
+          "dataIndex": "attribute:cclifestyle",
+          "text": "Lifestyle",
+          "xtype": "attribute"
+        },
+        {
+          "dataIndex": "attribute:ccneckline",
+          "text": "Neckline",
+          "xtype": "attribute"
+        },
+        {
+          "dataIndex": "level:merchcat",
+          "text": "Price Status",
+          "xtype": "level"
+        },
+        {
+          "dataIndex": "attribute:ccpricingtier",
+          "text": "Pricing Tier",
+          "xtype": "attribute"
+        },
+                {
+          "dataIndex": "attribute:ccprintpattern",
+          "text": "Print Pattern",
+          "xtype": "attribute"
+        },
+        {
+          "dataIndex": "attribute:ccsilhouette",
+          "text": "Silhouette",
+          "xtype": "attribute"
+        },
+        {
+          "dataIndex": "attribute:ccstoretier",
+          "text": "Store Tier (Prod)",
+          "xtype": "attribute"
+        },
+        {
+          "dataIndex": "attribute:ccsuits",
+          "text": "Suits",
+          "xtype": "attribute"
+        },
+        {
+          "dataIndex": "attribute:cctested",
+          "text": "Tested",
+          "xtype": "attribute"
+        }
+      ]
+    }
+  ]
+}

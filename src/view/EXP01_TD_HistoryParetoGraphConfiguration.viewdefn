@@ -1,0 +1,150 @@
+{
+    "id": "TD_HistoryParetoGraphConfiguration",
+    "defaults":{
+        "first": "slsr",
+        "second": "fpmargin",
+        "third": "fpsellthru",
+        "fourth": "fpmarginpct"
+    },
+    "view": [
+        {
+            "text": "Performance Analysis",
+            "view": [
+                {
+                    "text": "First Bar",
+                    "dataIndex": "first",
+                    "view": [
+                        {
+                            "dataIndex": "slsr",
+                            "text": "Sales $",
+                            "renderer": "usMoneyNoCents"
+                        },
+                        {
+                            "dataIndex": "slsu",
+                            "text": "Sales U",
+                            "renderer": "thousand"
+                        },
+                        {
+                            "dataIndex": "gafs",
+                            "text": "Inventory U",
+                            "renderer": "thousand"
+                        },
+                        {
+                            "dataIndex": "gafsd",
+                            "text": "Inventory $",
+                            "renderer": "usMoneyNoCents"
+                        },
+                        {
+                            "dataIndex": "fpmargin",
+                            "text": "Margin $",
+                            "renderer": "usMoneyNoCents"
+                        }
+                    ]
+                },
+                {
+                    "text": "Second Bar",
+                    "dataIndex": "second",
+                    "view": [
+                        {
+                            "dataIndex": "slsr",
+                            "text": "Sales $",
+                            "renderer": "usMoneyNoCents"
+                        },
+                        {
+                            "dataIndex": "slsu",
+                            "text": "Sales U",
+                            "renderer": "thousand"
+                        },
+                        {
+                            "dataIndex": "gafs",
+                            "text": "Inventory U",
+                            "renderer": "thousand"
+                        },
+                        {
+                            "dataIndex": "gafsd",
+                            "text": "Inventory $",
+                            "renderer": "usMoneyNoCents"
+                        },
+                        {
+                            "dataIndex": "fpmargin",
+                            "text": "Margin $",
+                            "renderer": "usMoneyNoCents"
+                        }
+                    ]
+                },
+                {
+                    "text": "First Line",
+                    "dataIndex": "third",
+                    "view": [
+                        {
+                            "dataIndex": "fpsellthru",
+                            "text": "Sell Thru %",
+                            "renderer": "percent"
+                        },
+                        {
+                            "dataIndex": "fpmarginpct",
+                            "text": "Margin %",
+                            "renderer": "percent"
+                        }
+                    ]
+                },
+                {
+                    "text": "Second Line",
+                    "dataIndex": "fourth",
+                    "view": [
+                        {
+                            "dataIndex": "fpsellthru",
+                            "text": "Sell Thru %",
+                            "renderer": "percent"
+                        },
+                        {
+                            "dataIndex": "fpmarginpct",
+                            "text": "Margin %",
+                            "renderer": "percent"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "text": "Avg Wk Sls Analysis",
+            "view": [
+                {
+                    "dataIndex": "fpaps",
+                    "view": [
+                        {
+                            "dataIndex": "fpaps",
+                            "text": "APS U",
+                            "renderer": "twoDecimal"
+                        }
+                    ]
+                },
+                {
+                    "dataIndex": "lyfpaps",
+                    "view": [
+                        {
+                            "dataIndex": "fpaps",
+                            "text": "APS U",
+                            "renderer": "twoDecimal"
+                        }
+                    ]
+                },
+                {
+					"text": "Line",
+					"dataIndex": "line",
+					"view": [{
+							"dataIndex": "fpsellthru",
+							"text": "Sell Thru %",
+							"renderer": "percent"
+						},
+						{
+							"dataIndex": "fpmarginpct",
+							"text": "Margin %",
+							"renderer": "percent"
+						}
+					]
+				}
+            ]
+        }
+    ]
+}

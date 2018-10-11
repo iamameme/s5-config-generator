@@ -1,0 +1,23 @@
+{
+    "$schema": "../schema/rollup.schema.json",
+    "view": [
+        {
+            "dataIndex": "slsr",
+            "text": "Sales $",
+            "renderer": "usMoneyRounded",
+            "formula": "sum(slsr)"
+        },
+        {
+            "dataIndex": "slsu",
+            "text": "Sales U",
+            "renderer": "thousand",
+            "formula": "sum(slsu)"
+        },
+        {
+            "dataIndex": "marginpct",
+            "text": "Margin %",
+            "renderer": "percent",
+            "formula": "(sum(slsr) - sum(slsc) - sum(mosc) - sum(damagesc) ) / sum(slsr)"
+        }
+    ]
+}

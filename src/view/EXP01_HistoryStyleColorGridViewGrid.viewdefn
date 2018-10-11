@@ -1,0 +1,126 @@
+{
+  "$schema": "../schema/grid.schema.json",
+  "type": "grid",
+  "main": {
+    "rowHeight": 40
+  },
+  "view": [
+    {
+      "text": "StyleColor",
+      "dataIndex": "member:stylecolor:id",
+      "highlightText": true,
+      "pinned": "left",
+      "stylePaneOpenOnClick": true,
+      "width": 150
+    },
+    {
+      "text": "Description",
+      "dataIndex": "description",
+      "highlightText": true,
+      "pinned": "left",
+      "stylePaneOpenOnClick": true,
+      "width": 250
+    },
+    {
+      "text": "Style",
+      "dataIndex": "member:style:id",
+      "pinned": "left",
+      "width": 150
+    },
+    {
+      "dataIndex": "attribute:ccticketprice:name",
+      "text": "Tkt Prc",
+      "renderer": "usMoney",
+      "width": 150
+    },
+    {
+      "dataIndex": "slsr",
+      "text": "Sales $",
+      "renderer": "usMoneyNoCents",
+      "formula": "sum(slsr)",
+      "width": 150
+    },
+    {
+      "dataIndex": "slsu",
+      "text": "Sales U",
+      "renderer": "thousand",
+      "formula": "sum(slsu)",
+      "width": 150
+    },
+    {
+      "dataIndex": "fpaps",
+      "text": "APS U",
+      "renderer": "twoDecimal",
+      "formula": "sum(slsu)/sum(strcntwk)",
+      "width": 150
+    },
+    {
+      "dataIndex": "fpapsr",
+      "text": "APS $",
+      "renderer": "usMoneyNoCents",
+      "formula": "sum(slsr)/sum(strcntwk)",
+      "width": 150
+    },
+    {
+      "dataIndex": "fpsalesaur",
+      "text": "Sales AUR",
+      "renderer": "usMoney",
+      "formula": "sum(slsr)/sum(slsu)",
+      "width": 150
+    },
+    {
+      "dataIndex": "fpsalesauc",
+      "text": "Sales AUC",
+      "renderer": "usMoney",
+      "formula": "sum(slsc)/sum(slsu)",
+      "width": 150
+    },
+    {
+      "dataIndex": "fpmargin",
+      "text": "Margin $",
+      "renderer": "usMoneyNoCents",
+      "formula": "sum(slsr) - sum(slsc) - sum(mosc) - sum(damagesc)",
+      "width": 150
+    },
+    {
+      "dataIndex": "fpmarginpct",
+      "text": "Margin %",
+      "renderer": "percent",
+      "formula": "(sum(slsr) - sum(slsc) - sum(mosc) - sum(damagesc))/sum(slsr)",
+      "width": 150
+    },
+    {
+      "dataIndex": "fpsellthru",
+      "text": "ST %",
+      "renderer": "percent",
+      "formula": "sum(slsu)/sum(gafs)",
+      "width": 150
+    },
+    {
+      "dataIndex": "stksls",
+      "text": "Avg S/S",
+      "renderer": "twoDecimal",
+      "formula": "sum(gafs)/sum(slsu)",
+      "width": 150
+    },
+    {
+      "dataIndex": "gafs",
+      "text": "GAFS U",
+      "renderer": "thousand",
+      "formula": "sum(gafs)",
+      "width": 150
+    },
+    {
+      "dataIndex": "insightu",
+      "text": "Insight",
+      "renderer": "thousand",
+      "formula": "sum(insightu)",
+      "width": 150
+    },
+    {
+      "dataIndex": "compositeattributeband",
+      "text": "Star",
+      "renderer": "star"
+    }
+  ]
+}

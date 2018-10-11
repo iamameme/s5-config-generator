@@ -1,0 +1,95 @@
+{
+  "type": "screen",
+  "model": "HistoryFit",
+  "view": [
+    {
+      "xtype": "heatmap-selections",
+      "text": "Select Level:",
+      "type": "dropdown",
+      "view": [
+        {
+          "text": "Sample 1",
+          "view": [
+            {
+              "dataIndex": "cccolorfamily",
+              "dimension": "attribute"
+            },
+            {
+              "dataIndex": "ccpricingtier",
+              "dimension": "attribute"
+            },
+            {
+              "dataIndex": "ccprintpattern",
+              "dimension": "attribute"
+            }
+          ]
+        },
+        {
+          "text": "Sample 2",
+          "view": [
+            {
+              "dataIndex": "ccpricingtier",
+              "dimension": "attribute"
+            },
+            {
+              "dataIndex": "cccolorfamily",
+              "dimension": "attribute"
+            },
+            {
+              "dataIndex": "ccprintpattern",
+              "dimension": "attribute"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "xtype": "heatmap-conf",
+      "dataIndex": "fpmarginpct",
+      "view": [
+        {
+          "xtype": "display",
+          "dataIndex": "fpmarginpct"
+        },
+        {
+          "xtype": "tooltip",
+          "dataIndex": "&",
+          "renderer": "template",
+          "mask": "{cccolorfamily} - {ccpricingtier}"
+        }
+      ]
+    },
+    {
+      "xtype": "first-chart",
+      "text": "Select Metric:",
+      "view": [
+        {
+          "text": "Sales Units",
+          "dataIndex": "slsu",
+          "renderer": "units"
+        },
+        {
+          "text": "Margin %",
+          "dataIndex": "fpmarginpct",
+          "renderer": "percent"
+        }
+      ]
+    },
+    {
+      "xtype": "second-chart",
+      "text": "Select Metric:",
+      "view": [
+        {
+          "text": "Margin %",
+          "dataIndex": "fpmarginpct",
+          "renderer": "percent"
+        },
+        {
+          "text": "Sales Units",
+          "dataIndex": "slsu",
+          "renderer": "units"
+        }
+      ]
+    }
+  ]
+}

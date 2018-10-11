@@ -1,0 +1,28 @@
+{
+    "$schema": "../schema/sort.schema.json",
+    "type": "sort",
+    "hideEmptyRow": true,
+    "default": "slsr",
+    "view": [
+        {
+            "dataIndex": "slsr",
+            "text": "Sales $"
+        },
+        {
+            "dataIndex": "slsu",
+            "text": "Sales U"
+        },
+        {
+            "dataIndex": "fpaps",
+            "text": "APS U"
+        },
+        {
+            "dataIndex": "fpmarginpct",
+            "text": "Margin %"
+        },
+        {
+            "dataIndex": "fpsellthru",
+            "text": "Sell Thru %"
+        }
+    ]
+}

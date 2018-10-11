@@ -1,0 +1,120 @@
+{
+  "type": "screen",
+  "view": [
+    {
+      "xtype": "heatmap-selections",
+      "text": "Select Level:",
+      "type": "dropdown",
+      "view": [
+        {
+          "text": "Gender",
+          "view": [
+            {
+              "dataIndex": "gender",
+              "dimension": "level"
+            },
+            {
+              "dataIndex": "region",
+              "dimension": "level"
+            }
+          ]
+        },
+        {
+          "text": "Top Bottom",
+          "view": [
+            {
+              "dataIndex": "top_bottom",
+              "dimension": "level"
+            },
+            {
+              "dataIndex": "region",
+              "dimension": "level"
+            }
+          ]
+        },
+        {
+          "text": "Group Product",
+          "view": [
+            {
+              "dataIndex": "group_prd",
+              "dimension": "level"
+            },
+            {
+              "dataIndex": "region",
+              "dimension": "level"
+            }
+          ]
+        },
+        {
+          "text": "Department",
+          "view": [
+            {
+              "dataIndex": "department",
+              "dimension": "level"
+            },
+            {
+              "dataIndex": "region",
+              "dimension": "level"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "xtype": "heatmap-conf",
+      "dataIndex": "trend",
+      "view": [
+        {
+          "xtype": "display",
+          "dataIndex": "pctmix"
+        },
+        {
+          "xtype": "trend",
+          "dataIndex": "trend"
+        }
+      ]
+    },
+    {
+      "xtype": "left-chart",
+      "text": "Select Metric:",
+      "view": [
+        {
+          "text": "Sales Retail",
+          "dataIndex": "slsr",
+          "renderer": "usMoney"
+        },
+        {
+          "text": "Sales Units",
+          "dataIndex": "slsu",
+          "renderer": "thousand"
+        },
+        {
+          "text": "Margin",
+          "dataIndex": "margin",
+          "renderer": "usMoney"
+        }
+      ]
+    },
+    {
+      "xtype": "right-chart",
+      "text": "Select Metric:",
+      "view": [
+        {
+          "text": "Sales Units",
+          "dataIndex": "slsu",
+          "renderer": "thousand"
+        },
+        {
+          "text": "Sales Retail",
+          "dataIndex": "slsr",
+          "renderer": "usMoney"
+        },
+        {
+          "text": "Margin",
+          "dataIndex": "margin",
+          "renderer": "usMoney"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+    "view": [
+        {
+            "text": "Sales $",
+            "dataIndex": "slsr",
+            "renderer": "usMoneyNoCents"
+        },  
+        {
+            "text": "Margin $",
+            "dataIndex": "fpmargin",
+            "renderer": "usMoneyNoCents"
+        }, 
+        {
+            "text": "Sell Thru %",
+            "dataIndex": "fpsellthru",
+            "renderer": "percent"
+        },
+        {
+            "text": "APS U",
+            "dataIndex": "fpaps",
+            "renderer": "twoDecimal"
+        },
+        {
+            "text": "Store Count",
+            "dataIndex": "storecount",
+            "renderer": "thousand"
+        },
+        {
+            "text": "Sales U",
+            "dataIndex": "slsu",
+            "renderer": "thousand"
+        },
+        {
+            "text": "Margin %",
+            "dataIndex": "fpmarginpct",
+            "renderer": "percent"
+        },
+        {
+            "text": "GAFS U",
+            "dataIndex": "gafs",
+            "renderer": "thousand"
+        },
+        {
+            "text": "Sales AUR",
+            "dataIndex": "aur",
+            "renderer": "usMoney"
+        },
+        {
+            "text": "On Order U",
+            "dataIndex": "onorderu",
+            "renderer": "thousand"
+        }
+    ]
+}

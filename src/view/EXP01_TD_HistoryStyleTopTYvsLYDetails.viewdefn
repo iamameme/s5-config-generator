@@ -1,0 +1,88 @@
+{
+    "$schema": "../schema/details.schema.json",
+    "main": {
+        "view": [
+            {
+                "dataIndex": "",
+                "xtype": ""
+            },
+            {
+                "dataIndex": "attribute:ccticketprice:name",
+                "xtype": "right-side",
+                "renderer": "usMoney"
+            },
+            {
+                "dataIndex": "&",
+                "xtype": "description",
+                "renderer": "template",
+                "mask": "{id} - {description}"
+            },
+            {
+                "dataIndex": "_",
+                "xtype": "id"
+            }
+        ]
+    },
+    "view": [
+         {
+            "dataIndex": "slsr",
+            "text": "Sls $",
+            "renderer": "usMoneyNoCents"
+        },
+        {
+            "dataIndex": "fpapsr",
+            "text": "APS $",
+            "renderer": "usMoneyNoCents"
+        },
+        {
+            "dataIndex": "fpsalesaur",
+            "text": "Sls AUR",
+            "renderer": "usMoney"
+        },
+        {
+            "dataIndex": "fpmargin",
+            "text": "Mgn $",
+            "renderer": "usMoneyNoCents"
+        },
+        {
+            "dataIndex": "stksls",
+            "text": "Avg S/S",
+            "renderer": "twoDecimal"
+        },
+        {
+            "dataIndex": "insightu",
+            "text": "Insight",
+            "renderer": "thousand"
+        },
+        {
+            "dataIndex": "slsu",
+            "text": "Sls U",
+            "renderer": "thousand"
+        },
+        {
+            "dataIndex": "fpaps",
+            "text": "APS U",
+            "renderer": "twoDecimal"
+        },
+        {
+            "dataIndex": "gafsauc",
+            "text": "AUC",
+            "renderer": "usMoney"
+        },
+        {
+            "dataIndex": "fpmarginpct",
+            "text": "Mgn %",
+            "renderer": "percent"
+        },
+        {
+            "dataIndex": "fpsellthru",
+            "text": "ST %",
+            "renderer": "percent"
+        },
+        {
+            "dataIndex": "gafs",
+            "text": "GAFS U",
+            "renderer": "thousand"
+        }
+    ]
+}

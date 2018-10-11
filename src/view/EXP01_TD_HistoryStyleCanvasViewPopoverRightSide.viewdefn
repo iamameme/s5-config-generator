@@ -1,0 +1,76 @@
+{
+  "view": [
+    {
+      "dataIndex": "attribute:ccfloorset:name",
+      "text": "Floorset",
+      "xtype": "attribute",
+      "dimension": "product"
+    },
+    {
+      "dataIndex": "attribute:ccgraphictheme:name",
+      "text": "Graphic Theme",
+      "xtype": "attribute",
+      "dimension": "product"
+    },
+    {
+      "dataIndex": "attribute:cclegshape:name",
+      "text": "Leg Shape",
+      "xtype": "attribute",
+      "dimension": "product"
+    },
+    {
+      "dataIndex": "attribute:cclifestyle:name",
+      "text": "Lifestyle",
+      "xtype": "attribute",
+      "dimension": "product"
+    },
+    {
+      "dataIndex": "attribute:ccneckline:name",
+      "text": "Neckline",
+      "xtype": "attribute",
+      "dimension": "product"
+    },
+    {
+      "dataIndex": "attribute:ccpricingtier:name",
+      "text": "Pricing Tier",
+      "xtype": "attribute",
+      "dimension": "product"
+    },
+    {
+      "dataIndex": "attribute:ccprintpattern:name",
+      "text": "Print Pattern",
+      "xtype": "attribute",
+      "dimension": "product"
+    },
+    {
+      "dataIndex": "attribute:ccsilhouette:name",
+      "text": "Silhouette",
+      "xtype": "attribute",
+      "dimension": "product"
+    },
+    {
+      "dataIndex": "attribute:ccsleevelength:name",
+      "text": "Sleeve Length",
+      "xtype": "attribute",
+      "dimension": "product"
+    },
+    {
+      "dataIndex": "attribute:ccstoretier:name",
+      "text": "Store Tier (Prod)",
+      "xtype": "attribute",
+      "dimension": "location"
+    },
+    {
+      "dataIndex": "attribute:ccsuits:name",
+      "text": "Suits",
+      "xtype": "attribute",
+      "dimension": "product"
+    },
+    {
+      "dataIndex": "attribute:cctested:name",
+      "text": "Tested",
+      "xtype": "attribute",
+      "dimension": "product"
+    }
+  ]
+}

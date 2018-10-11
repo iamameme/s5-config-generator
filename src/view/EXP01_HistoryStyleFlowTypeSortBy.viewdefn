@@ -1,0 +1,63 @@
+{
+    "type": "sort",
+    "hideEmptyRow": true,
+    "default": "slsu",
+    "view": [
+    {
+      "dataIndex": "slsr",
+      "text": "Sales $"
+    },
+    {
+      "dataIndex": "slsu",
+      "text": "Sales U"
+    },
+    {
+      "dataIndex": "fpapsr",
+      "text": "APS $"
+    },
+    {
+      "dataIndex": "fpaps",
+      "text": "APS U"
+    },
+    {
+      "dataIndex": "fpmargin",
+      "text": "Margin $"
+    },
+    {
+      "dataIndex": "fpmarginpct",
+      "text": "Margin %"
+    },
+    {
+      "dataIndex": "fpsellthru",
+      "text": "Sell Thru %"
+    },
+    {
+      "dataIndex": "stksls",
+      "text": "Stk/Sls U"
+    },
+    {
+      "dataIndex": "gafs",
+      "text": "GAFS U"
+    },
+    {
+      "dataIndex": "avgstrgafs",
+      "text": "Avg Str Inv U"
+    },
+    {
+      "dataIndex": "onorderu",
+      "text": "On Order U"
+    },
+    {
+      "dataIndex": "insightu",
+      "text": "Insight"
+    },
+    {
+      "dataIndex": "member:stylecolor:id",
+      "text": "StyleColor ID"
+    },
+    {
+      "dataIndex": "compositeattributeband",
+      "text": "Star Rating"
+    }
+  ]
+}

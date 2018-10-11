@@ -1,0 +1,119 @@
+{
+  "type": "metrics",
+  "id": "TD_HistoryCatRecapCatSummaryChoiceProductivity",
+  "view": [
+    {
+      "dataIndex": "cccount",
+      "text": "CC Count",
+      "view": [
+        {
+          "dataIndex": "varcccount",
+          "text": "",
+          "renderer": "arrowPercent"
+        },
+        {
+          "dataIndex": "lycccount",
+          "text": "LY"
+        }
+      ]
+    },
+    {
+      "dataIndex": "bestcount",
+      "text": "CCs contributing to Top 20% Sls $",
+      "view": [
+        {
+          "dataIndex": "varbestcount",
+          "text": "",
+          "renderer": "arrowPercent"
+        },
+        {
+          "dataIndex": "lybestcount",
+          "text": "LY"
+        }
+      ]
+    },
+    {
+      "dataIndex": "slspersku",
+      "text": "Sales $ / CC",
+      "renderer": "usMoneyRounded",
+      "view": [
+        {
+          "dataIndex": "varslspersku",
+          "text": "",
+          "renderer": "arrowPercent"
+        },
+        {
+          "dataIndex": "lyslspersku",
+          "text": "LY",
+          "renderer": "usMoneyRounded"
+        }
+      ]
+    },
+    {
+      "dataIndex": "strsls",
+      "text": "Avg Str Sls $",
+      "renderer": "usMoneyRounded",
+      "view": [
+        {
+          "dataIndex": "varstrsls",
+          "text": "",
+          "renderer": "arrowPercent"
+        },
+        {
+          "dataIndex": "lystrsls",
+          "text": "LY",
+          "renderer": "usMoneyRounded"
+        }
+      ]
+    },
+    {
+      "dataIndex": "worstcount",
+      "text": "CCs contributing to Bottom 20% Sls $",
+      "view": [
+        {
+          "dataIndex": "varworstcount",
+          "text": "",
+          "renderer": "arrowPercent"
+        },
+        {
+          "dataIndex": "lyworstcount",
+          "text": "LY"
+        }
+      ]
+    },
+    {
+      "dataIndex": "mgnpersku",
+      "text": "Margin $ / CC",
+      "renderer": "usMoneyRounded",
+      "view": [
+        {
+          "dataIndex": "varmgnpersku",
+          "text": "",
+          "renderer": "arrowPercent"
+        },
+        {
+          "dataIndex": "lymgnpersku",
+          "text": "LY",
+          "renderer": "usMoneyRounded"
+        }
+      ]
+    },
+    {
+      "dataIndex": "strskucnt",
+      "text": "Avg Str CC Count",
+      "renderer": "integer",
+      "view": [
+        {
+          "dataIndex": "varstrskucnt",
+          "text": "",
+          "renderer": "arrowPercent"
+        },
+        {
+          "dataIndex": "lystrskucnt",
+          "text": "LY",
+          "renderer": "integer"
+        }
+      ]
+    }
+  ]
+}

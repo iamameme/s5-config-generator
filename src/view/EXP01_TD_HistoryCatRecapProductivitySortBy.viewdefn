@@ -1,0 +1,30 @@
+
+  {
+    "$schema": "../schema/sort.schema.json",
+    "type": "sort",
+    "hideEmptyRow": true,
+    "id": "TD_HistoryProductivitySort",
+    "default": "cccount",
+    "view": [
+    {
+      "dataIndex": "cccount",
+      "text": "CC Count"
+    },
+    {
+      "dataIndex": "pct_sls",
+      "text": "% Sales U to Ttl"
+    },
+    {
+      "dataIndex": "pct_gafs",
+      "text": "% GAFS U to Ttl"
+    },
+    {
+      "dataIndex": "turn",
+      "text": "Turn U"
+    },
+    {
+      "dataIndex": "slspersku",
+      "text": "Sales $ per CC"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "view": [
+    {
+      "text": "Sales $ LY",
+      "dataIndex": "lyslsr"
+    },
+    {
+      "text": "Sales $ TY",
+      "dataIndex": "slsr"
+    }
+  ]
+}

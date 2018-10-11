@@ -1,0 +1,52 @@
+{
+    "view": [
+        {
+            "text": "storeAttributes",
+            "view": [
+                {
+                    "text": "Analysis by Grade",
+                    "dataIndex": "level:grade",
+                    "xtype": "level"
+                },
+                {
+                    "text": "Analysis by Climate",
+                    "dataIndex": "attribute:strclimate",
+                    "xtype": "attribute"
+                },
+                {
+                    "text": "Analysis by Sales Region",
+                    "dataIndex": "level:region",
+                    "xtype": "attribute"
+                },
+                {
+                    "text": "Analysis by Channel",
+                    "dataIndex": "level:selling_channel",
+                    "xtype": "level"
+                }
+            ]
+        },
+        {
+            "text": "charting",
+            "view": [
+                {
+                    "text": "Sales U",
+                    "dataIndex": "slsu",
+                    "renderer": "thousand",
+                    "chartType": "column"
+                },
+                {
+                    "text": "GAFS U",
+                    "dataIndex": "gafs",
+                    "renderer": "thousand",
+                    "chartType": "column"
+                },
+                {
+                    "text": "APS U",
+                    "dataIndex": "fpaps",
+                    "renderer": "twoDecimal",
+                    "chartType": "spline"
+                }
+            ]
+        }
+    ]
+}

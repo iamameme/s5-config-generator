@@ -1,0 +1,26 @@
+{
+    "$schema": "../schema/rollup.schema.json",
+    "view": [
+        {
+            "dataIndex": "cccount",
+            "text": "Count",
+            "renderer": "thousand",
+            "formula": "sum(1)",
+            "xtype": "unique"
+        },
+        {
+            "dataIndex": "slsr",
+            "text": "Sales $",
+            "renderer": "usMoneyRounded",
+            "formula": "sum(slsr)",
+            "includePercentage": true
+        },
+        {
+            "dataIndex": "slsu",
+            "text": "Sales U",
+            "renderer": "thousand",
+            "formula": "sum(slsu)",
+            "includePercentage": true
+        }
+    ]
+}

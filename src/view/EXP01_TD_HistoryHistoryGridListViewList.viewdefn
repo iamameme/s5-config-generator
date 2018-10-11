@@ -1,0 +1,11 @@
+{
+  "$schema": "../schema/companionView.schema.json",
+  "type": "companionView",
+  "main": {
+    "stars": "compositeattributeband",
+    "image": "attribute:img:id",
+    "title": "id",
+    "body": "name"
+  },
+  "view": []
+}

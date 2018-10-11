@@ -1,0 +1,37 @@
+{
+  "defaultAggBy": "level:region",
+  "default": "Region",
+  "mapUri": "world-palestine-lowres.geo",
+  "view": [
+    {
+      "text": "Region",
+      "dataIndex": "Region",
+      "geoLocationKeys": [
+        "attribute:regionlatitude:id",
+        "attribute:regionlongitude:id"
+      ],
+      "groupingKey": "level:region",
+      "modelId": "Region"
+    },
+    {
+      "text": "District",
+      "dataIndex": "District",
+      "groupingKey": "level:district",
+      "geoLocationKeys": [
+        "attribute:districtlatitude:id",
+        "attribute:districtlongitude:id"
+      ],
+      "modelId": "District"
+    },
+    {
+      "text": "Store",
+      "dataIndex": "Store",
+      "groupingKey": "level:store",
+      "geoLocationKeys": [
+        "attribute:strlatitude:id",
+        "attribute:strlongitude:id"
+      ],
+      "modelId": "Store"
+    }
+  ]
+}

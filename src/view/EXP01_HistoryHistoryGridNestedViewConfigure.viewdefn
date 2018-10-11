@@ -1,0 +1,106 @@
+{
+  "$schema": "../schema/configure.schema.json",
+  "type": "configure",
+  "defaults": {
+    "first": "level:class",
+    "second": "level:powerdriver"
+  },
+  "main": {
+    "info": "Select View Options"
+  },
+  "view": [
+    {
+      "dataIndex": "first",
+      "text": "Level One",
+      "view": [
+        {
+          "dataIndex": "level:department",
+          "text": "Department",
+          "xtype": "level"
+        },
+        {
+          "dataIndex": "level:class",
+          "text": "Class",
+          "xtype": "level"
+        },
+        {
+          "dataIndex": "attribute:ccsubclassname",
+          "text": "Subclass",
+          "xtype": "attribute"
+        },
+        {
+          "dataIndex": "level:powerdriver",
+          "text": "Powerdriver",
+          "xtype": "level"
+        },
+        {
+          "dataIndex": "attribute:ccstylegroup",
+          "text": "Style Group",
+          "xtype": "attribute"
+        }
+      ]
+    },
+    {
+      "dataIndex": "second",
+      "text": "Level Two",
+      "view": [
+        {
+          "dataIndex": "level:class",
+          "text": "Class",
+          "xtype": "level"
+        },
+        {
+          "dataIndex": "attribute:ccsubclassname",
+          "text": "Subclass",
+          "xtype": "attribute"
+        },
+        {
+          "dataIndex": "level:powerdriver",
+          "text": "Powerdriver",
+          "xtype": "level"
+        },
+        {
+          "dataIndex": "attribute:ccstylegroup",
+          "text": "Style Group",
+          "xtype": "attribute"
+        },
+        {
+          "dataIndex": "level:style",
+          "text": "Style",
+          "xtype": "level"
+        }
+      ]
+    },
+        {
+      "dataIndex": "third",
+      "text": "Level Three",
+      "view": [
+        {
+          "dataIndex": "level:class",
+          "text": "Class",
+          "xtype": "level"
+        },
+        {
+          "dataIndex": "attribute:ccsubclassname",
+          "text": "Subclass",
+          "xtype": "attribute"
+        },
+        {
+          "dataIndex": "level:powerdriver",
+          "text": "Powerdriver",
+          "xtype": "level"
+        },
+        {
+          "dataIndex": "attribute:ccstylegroup",
+          "text": "Style Group",
+          "xtype": "attribute"
+        },
+        {
+          "dataIndex": "level:style",
+          "text": "Style",
+          "xtype": "level"
+        }
+      ]
+    }
+  ]
+}
