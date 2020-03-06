@@ -156,7 +156,7 @@ class GeoPosition extends Component {
                 <p>
                     I'm registered as <code>geo</code> and referenced in
           <code>uiSchema</code> as the <code>ui:field</code> to use for this
-                                                                                                                                                                                                                                                                                                                                                    schema.
+                                                                                                                                                                                                                                                                                                                                                                        schema.
         </p>
                 <div className="row">
                     <div className="col-sm-6">
@@ -352,7 +352,6 @@ class App extends Component {
     }
 
     shouldComponentUpdate(nextProps, nextState) {
-        debugger;
         return shouldRender(this, nextProps, nextState);
     }
 
@@ -545,7 +544,7 @@ class App extends Component {
                         <div className="col-sm-9">
                             <Selector onSelected={this.load} />
                         </div>
-                        <div className="col-sm-1">
+                        <div className="col-sm-2">
                             <Form
                                 schema={liveValidateSchema}
                                 formData={liveValidate}

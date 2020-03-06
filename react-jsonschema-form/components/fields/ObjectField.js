@@ -27,7 +27,6 @@ class DefaultObjectFieldTemplate extends React.Component {
         if (prop.content.props.formData !== undefined) {
           showProp = true;
         } else {
-          console.log('formdata')
           this.props.changeFormData(prop.name);
         }
         if (typeof prop.content.props.formData === 'boolean' && (prop.content.props.formData === true || prop.content.props.formData === false)) {
@@ -188,7 +187,6 @@ class ObjectField extends Component {
 
   onPropertyChange = name => {
     return (value, errorSchema) => {
-      debugger;
       const newFormData = { ...this.props.formData, [name]: value };
       this.props.onChange(
         newFormData,
